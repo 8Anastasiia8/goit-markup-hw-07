@@ -1,10 +1,10 @@
-.group-list {
+.group__list {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
-.group-link {
+.group__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,16 +19,16 @@
     border: 1px solid #2196f3;
     color: #2196f3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    & .clients-icon {
+    & .group__icon {
       fill: #2196f3;
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }
-.group:not(:last-child) {
+.group__item:not(:last-child) {
   margin-right: 30px;
 }
-.clients-icon {
+.group__icon {
   fill: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
