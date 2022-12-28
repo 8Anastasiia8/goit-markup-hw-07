@@ -3,9 +3,10 @@
   margin-top: 50px;
   align-items: center;
   justify-content: center;
-  &.img-box:not(:last-child) {
-    margin-right: 30px;
-  }
+}
+
+.images-collection .img-box:not(:last-child) {
+  margin-right: 30px;
 }
 
 .img-box {
